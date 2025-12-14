@@ -6,6 +6,8 @@ Norton / Midnight Commander style with Keyboard + Mouse + Advanced Monitor Touch
 
 `CCTweaked - TirithCommander vers - 20251213_2350.lua`
 
+computercraft command to download: `pastebin get LRwwrQmD tc.lua`
+
 ### versions:
 
 - 20251213-2005 - repaired draw both left/right panels
