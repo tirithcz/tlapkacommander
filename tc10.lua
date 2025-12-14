@@ -1,16 +1,21 @@
--- TLAPKA COMMANDER v. tc9
+-- TLAPKA COMMANDER v. tc10
 -- Dual Panel File Manager for CC: Tweaked
 -- Norton / Midnight Commander style
 -- Keyboard + Mouse + Advanced Monitor Touch support
--- CCTweaked - TirithCommander vers - 20251213_2350.lua
--- verze 20251213-2005 - repaired draw both left/right panels
---       20251213-2215 - switching view type with "v" key list/detail
---       20251213-2240 - přidání HOME/END, PAGE UP/DOWN a v do ovládání
---                       aktualizovaná nápověda    
---       tc10.lua - 20251214_0010 - virtual devices <EnderModem>, <ModemDevices>
---								  - added goBack in virtual directory from list of devices back to root of FS
---								  - added sorting by:  name, filetype, date, size
---								    system items - folders, virtual directories (devices) will be alwaysFirst
+-- CCTweaked - TirithCommander tc10 - 20251214_0055.lua
+--
+-- https://pastebin.com/LRwwrQmD
+--
+-- CC Command: 	pastebin get LRwwrQmD tc.lua
+--
+-- verze tc5.lua  - 20251213_2005 - repaired draw both left/right panels
+--       tc6.lua  - 20251213_2215 - switching view type with "v" key list/detail
+--       tc8.lua  - 20251213_2240 - přidání HOME/END, PAGE UP/DOWN a v do ovládání
+--                                  aktualizovaná nápověda    
+--       tc10.lua - 20251214_0010 [ ] virtual devices <EnderModem>, <ModemDevices>
+--								  [ ] added goBack in virtual directory from list of devices back to root of FS
+--								  [ ] added sorting by:  name, filetype, date, size
+--								      system items - folders, virtual directories (devices) will be alwaysFirst
 
 -- =====================
 -- Configuration (resolution + colors)
@@ -116,8 +121,8 @@ end
 
 local function showHelp()
 	local lines = {
-		"Tirith Commander",
-		"=======================================",
+		"Dual Panel File Manager",
+		"",
 		"TAB        - Switch panel",
 		"UP/DN      - Move cursor",
 		"HOME/END   - Jump to first/last item",
