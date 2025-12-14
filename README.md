@@ -1,11 +1,12 @@
-** TLAPKA COMMANDER v. tc9** 
+# TLAPKA COMMANDER v. tc9
 
-Dual Panel File Manager for CC: Tweaked
-Norton / Midnight Commander style
-Keyboard + Mouse + Advanced Monitor Touch support
+## Dual Panel File Manager for CC: Tweaked
+
+Norton / Midnight Commander style with Keyboard + Mouse + Advanced Monitor Touch support
+
 `CCTweaked - TirithCommander vers - 20251213_2350.lua`
 
-versions:
+### versions:
 
 - 20251213-2005 - repaired draw both left/right panels
 - 20251213-2215 - switching view type with "v" key list/detail
