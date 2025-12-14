@@ -5,6 +5,7 @@
 -- "CCTweaked - TirithCommander tc13 - 20251214_1725.lua"
 --
 -- https://pastebin.com/Y2mpi03p 
+-- https://github.com/tirithcz/tlapkacommander/raw/refs/heads/main/tc13.lua
 --
 -- CC Command:  pastebin get Y2mpi03p tc.lua
 --
