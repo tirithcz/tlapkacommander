@@ -5,7 +5,7 @@
 -- "tc14 - 20251218_1715.lua"
 -- https://pastebin.com/JC5MS6RL
 --
--- CC Command:  pastebin get JC5MS6RL tc.lua
+-- CC Command:  pastebin get AyA76XCr tc.lua
 --
 -- verze tc5.lua  - 20251213_2005 - repaired draw both left/right panels
 --       tc6.lua  - 20251213_2215 - switching view type with "v" key list/detail
@@ -30,7 +30,7 @@
 --                                - config file "~/.tc.cfg"
 --       tc12.lua - 20251214_0650 - BUGS
 --       tc13.lua - 20251214_1540 - Savior9O9 Fixed swinecode
-
+--       tc14.lua - 20260130_1000 - Fixed file tree list, help screen and few bugs
 -- ==================================================
 --      keysCfg = {
 --          COPY   = keys.f5,
@@ -738,3 +738,4 @@ while true do
   elseif e=="monitor_touch" then handlePointer(1,b,c) end
   redraw()
 end
+
